@@ -16,7 +16,7 @@
             <a href="" class="header__link">
                 <img src="img/_Peridona_copy.png" alt="" class="header__logo logo">
             </a>
-            <div class="header__navWrapper">
+            <div class="header__nav-wrapper">
                 <nav class="header__nav nav">
                     <ul class="nav__list">
                         <li class="nav__item"><a href="">Home</a></li>
@@ -35,7 +35,7 @@
                 <div class="info__contacts contacts">
                     <ul class="contacts__list">
                         <li class="contacts__item">
-                            <div class="contacts__itemWrapper">
+                            <div class="contacts__item-wrapper">
                                 <span class="contacts__logo contacts__logo--clocks">
                                     
                                     <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="15" height="15" viewBox="0 0 15 15">
@@ -55,7 +55,7 @@
                             </div>
                         </li>
                         <li class="contacts__item">
-                            <div class="contacts__itemWrapper">
+                            <div class="contacts__item-wrapper">
                                 <span class="contacts__logo contacts__logo--envelope">
                                     
                                     <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="22" height="15" viewBox="0 0 22 15">
@@ -74,7 +74,7 @@
                             </div>
                         </li>
                         <li class="contacts__item">
-                            <div class="contacts__itemWrapper">
+                            <div class="contacts__item-wrapper">
                                 <span class="contacts__logo contacts__logo--phone">
                                     <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="15" height="15" viewBox="0 0 15 15">
                                         <image id="phone-receiver" width="15" height="15" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA8AAAAPCAYAAAA71pVKAAAA+klEQVQokZWTsU5CMRSGPx1YXWoY6eigD4CBMDCbNIS4moCEzRdg4QWAjQEwcTQ63Jo4qYOTL+BuOsDWkU3NNZcUcykaj//W//Q7p+e03UnTlExKm2eg4J09RqjdAN4CNaCstKmIYaXNFdDMeeP/VD6LvCOlTVcKz3/wP6TwY+T1vLOXUngUeUUJuIK9s6/AXc67UNoYaWXC0N5zfiK5svwjqQNPUbzhnU1C/BwoAX3v7OcGHDa0gVmUYAgsgEFYv4WhXm/AIUEHmAhafln3/C3v7BQ4AZZ/wHtbcEhwDxwAN7+AD97Zw61jx1LaZL+sBVSB/Wyo3tlTgC8TTEzrlTj8HwAAAABJRU5ErkJggg=="/>
@@ -88,7 +88,7 @@
                 </div>
                 <div class="container">
                     <div class="info__content">
-                        <div class="info__headerWrapper">
+                        <div class="info__header-wrapper">
                             <h1 class="info__header">We provide Business Services worldwide!</h1>
                         </div>
                         <p class="info__subtitle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti illo ipsum
@@ -102,104 +102,122 @@
                     <div class="info__template"></div>
                 </div>
         </section>
-        <section class="aboutBusiness">
+        <section class="about-business">
             <div class="container">
-                <div class="aboutBusiness__images">
-                    <img src="img/Layer_1.png" alt="" width="469" height="756" class="aboutBusiness__stateImage">
-                    <ul class="aboutBusiness__sponsorsList">
-                        <li class="aboutBusiness__sponsorsItem">
+                <div class="about-business__images">
+                    <img src="img/Layer_1.png" alt="" width="469" height="756" class="about-business__state-image">
+                    <ul class="about-business__sponsors-list">
+                        <li class="about-business__sponsors-item">
                             <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="87" height="42" viewBox="0 0 87 42">
                                 <image id="Vector_Smart_Object" data-name="Vector Smart Object" width="87" height="42" xlink:href="data:img/png;base64,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"/>
                             </svg>
                         </li>
-                        <li class="aboutBusiness__sponsorsItem">
+                        <li class="about-business__sponsors-item">
                             <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="106" height="29" viewBox="0 0 106 29">
                                 <image id="Vector_Smart_Object" data-name="Vector Smart Object" width="106" height="29" xlink:href="data:img/png;base64,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"/>
                             </svg>
                             
                         </li>
                         
-                        <li class="aboutBusiness__sponsorsItem">
+                        <li class="about-business__sponsors-item">
                             <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="141" height="22" viewBox="0 0 141 22">
                                 <image id="Vector_Smart_Object" data-name="Vector Smart Object" width="141" height="22" xlink:href="data:img/png;base64,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"/>
                             </svg>
                         </li>
-                        <li class="aboutBusiness__sponsorsItem">
+                        <li class="about-business__sponsors-item">
                             <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="96" height="26" viewBox="0 0 96 26">
                                 <image id="Vector_Smart_Object" data-name="Vector Smart Object" width="96" height="26" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGAAAAAaCAYAAABIIVmfAAAFW0lEQVRogeWae/BVUxTHP79K/E4ok5RopDqhvArFTHkbmcl7BoNhGscjjwmTNAwzRIbxyJvp5vUP0YTGzzSDkUdqPPOquETGoxSKukXIrPE9Zs9p73Nv7vld+fWduXPP2XvtfdZea+2111rnNDX3O4f/AboCg4H99D8IuAe4s17WK+VSXeOjOKlrfAfgMmCXHJq1wExgVqa9B3AmsHNg3CqNe70O/h4CjgR6efqa6ph3k4Ep4C5gIdAvwNQFHuEblgC3AWcDkzVXimuAW6W8ejAGaAkooE2gHfAH8EnOYso5feuBR4AbnbZJwA0FCN/wC3BvG5L3Bminht9zaP6sYR6z9tXAGuC6gnn8teD5Nil0KIgZ8/fPyy+vaCOyaQiKUgA6bIucb7NAkQL7FNhicxfoxqJIBVhUFDWG7baDol1GpUq/nRG7KqEyZT3q9G0PnAF0AWYDL9b4TFvDcGBPoLvuv1Ho/GEtE0Rx0g0YCfRXYLIUmGu/SrlUSxDSpDB+sK6fUPsA4ESt6VvgVeCdLPOtiRgY6mSv9r+tnveKo4Bjdb2dw4uFnxdX4e1o4Bhga+BkLdTFHOA84KPA+K2iOJkAzAPe1Dw3A83qXxDFyZhKufSCOyiKk920rkEypn2BbdT9LDAVuAkY50kYXwZOBZbhhKGthT2UI1i2fagjfBdmec9khG+4SIsM4RCgD3ApkEgYyzK0B2k3HeCZo7N2yViNX1Epl+4GLndojP+ZUZyclhm7FzBRzx7uCD+FKfHKQLZ+GPBcKvvWVsAM4Lic/t4qN4QwJKdvqDLwFF8GchBT+pOybhe3OAo247hP11OAnxw6k9GUKE52Shsq5dI04JQAX/sogTQX2xd420MzRDu31RVAjh9uD1wtZt4K0PyQM+8sTwL5eCBx7K2Siovs7hrG38JdJ3fkwoR5SaZtQYCvz4EJSkoXAeMDdLYTGqKA0CFmljJJlnuHp3+xdlAIiz3tPwLzA/SjMvdZug+c6yWe8SMy9+sDz1mVuV8YoNuRBikghHeBj9U3VUW9+bL6GbKQ7GJcrAy0hxY8QJFWCvP9r8lA7JAeXYXf/v9ynasD7Z3YxDLXx/SrFaFi39Kc8RYCL9e1hYUHmwwq5VLWlbX3jG32tNWNtlg6yKvCdso2mPCjOOmuHXeEDuBQab5wpC7ot5yJay0v2FzrGsV4FT5CcC29I3BWFCfmhr7TAf5ZpVwaV6U8XyjSHfB1zqTdanxgLyU+/zXydvVX+jcLn654PsXPwO2N5j21ltk5NAfWOJf51+8L4KlW+JI60ujCg6WOAqZlhG+YrxC0oUgV0OLJIlOc7sn0suhRA03R6ByYr0+gfbr+ByoEzqLqi58oTjoWvYhUAWuVOvvQVXWaLQP9XZTN3r+Rz643qvBZuiVMe3va1+itnWGHwHzue+cNDmthYA18ZQ3RF1H9A9dfPqxYeayHzip67+kzkDnylxZTHw5cqLrNcs84tDt8sMijHgxTrcVNiE4InAGjlZXi/GfRJ4qTRGWE0DkyMYqT8coJ5gVosmdmzwCdNxG7QhmjT5hWmHoAeB/4QuWDc1VCbgk8BIV2PtinMLvnjAthmfOlhFtnMuu/NjPG1nFSpuy9WB8S+DBZc45yzgsXI7TulTnrGpD5zOeoAJ25wZ6hD7MiFZtGqmbSXeHoKkVMc/UO+OkqL/T7atdkC2EpLBk6X1YXwv7AVRYiAi+pBmT+2gpoxuMb4s1qNXaw2pxmnVZhfSqQTZtbsF1rBmSlZbu3bNgM7EF7BxDFie3c64Hj5bZs11sp2aq7lt3aJzkhN2rKs91k/FhZ2n92wKK/AEUBFIFVg41mAAAAAElFTkSuQmCC"/>
                             </svg>
                         </li>
                     </ul>
+                </div>
+                    <div class="about-business__content-wrapper">
+                        <article class="about-business__article business-article">
+                            <h2 class="about-business__header">We are Unique & different</h2>
+                            <div class="about-business__information">
+                                <h4 class="business-article__header">About our Business</h4>
+                                <p class="business-article__paragraph"><strong>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</strong> Quam
+                                    porro et dolor quaerat nesciunt ipsam, vel, maiores animi, possimus maxime quisquam pariatur
+                                    commodi!</p>
+                                <p class="business-article__paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat
+                                    maxime nam consequatur atque perspiciatis et eius error, veritatis iure unde nihil voluptate.
+                                    </p>
+                            </div>
+                            <div class="about-business__records">
+                                <div class="about-business__stats business-stats">
+                                    <span class="business-stats__number">23000</span>
+                                    <span class="business-stats__subtitle">Projects</span>
+                                </div>
+                                <div class="about-business__stats business-stats">
+                                    <span class="business-stats__number">10333</span>
+                                    <span class="business-stats__subtitle">Reviews</span>
+                                </div>
+                                <div class="about-business__stats business-stats">
+                                    <span class="business-stats__number">105</span>
+                                    <span class="business-stats__subtitle">Award</span>
+                                </div>
+                            </div>
+                        </article>
+                        <div class="feedback">
+                            <h2 class="feedback__header">Get in touch</h2>
+                            <form action="" method="POST" class="feedback__form">
+                                <input type="text" class="feedback__input" name="name" id="feedback-name" placeholder="Enter your name">
+                                <input type="email" class="feedback__input" name="email" id="feedback-email" placeholder="Enter your email">
+                                <textarea name="message" id="feedback-message" cols="30" rows="5" placeholder="Message"></textarea>
+                                <button type="submit" class="feedback__button button">Send</button>
+                            </form>
+                        </div>
                     </div>
-                <article class="aboutBusiness__article businessArticle">
-                    <h2 class="aboutBusiness__header">We are Unique & different</h2>
-                    <span class="businessArticle__header">About our Business ___________</span>
-                    <p class="businessArticle__text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quam
-                        porro et dolor quaerat nesciunt ipsam, vel, maiores animi, possimus maxime quisquam pariatur
-                        commodi! Fuga quo ut at asperiores eius velit suscipit sint laboriosam nihil, neque numquam
-                        natus. Quia doloribus odit consectetur accusamus voluptatibus. Error optio voluptate voluptatem
-                        exercitationem ipsa dolor.</p>
-                    <p class="businessArticle__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat
-                        maxime nam consequatur atque perspiciatis et eius error, veritatis iure unde nihil voluptate.
-                        Soluta, aut facilis quo itaque beatae nemo ea laudantium cum quia iusto doloribus voluptatem
-                        laborum sapiente illo unde nulla quidem dolor. Numquam, similique! Quae et recusandae velit
-                        magni earum reprehenderit eum, in tempora dignissimos, voluptatem similique quisquam impedit
-                        illum ipsum, maiores ipsam numquam ullam iusto deserunt eius quod? Aut id harum ab labore,
-                        consequuntur magnam sapiente quasi quos cupiditate unde expedita consequatur, quidem, excepturi
-                        praesentium vero eius culpa! Asperiores et molestias laborum voluptate obcaecati nulla tempore.
-                        Corporis, odit?</p>
-                    <div class="aboutBusiness__stats businessStats">
-                        <span class="businessStats__number">23000</span>
-                        <span class="businessStats__subtitle">Projects</span>
-                    </div>
-                    <div class="aboutBusiness__stats businessStats">
-                        <span class="businessStats__number">10333</span>
-                        <span class="businessStats__subtitle">Reviews</span>
-                    </div>
-                    <div class="aboutBusiness__stats businessStats">
-                        <span class="businessStats__number">105</span>
-                        <span class="businessStats__subtitle">Award</span>
-                    </div>
-                </article>
-            </div>
-        </section>
-        <section class="feedback">
-            <div class="container">
-                <h2 class="feedback__header">Get in touch</h2>
-                <form action="" method="POST" class="feedback__form">
-                    <input type="text" name="" id="" placeholder="Enter your name">
-                    <input type="email" name="" id="" placeholder="Enter your email">
-                    <textarea name="" id="" cols="30" rows="10" placeholder="Message"></textarea>
-                    <button type="submit" class="feedback__button button"></button>
-                </form>
             </div>
         </section>
         <section class="stages">
-            <div class="container">
-                <h2 class="stages__header">How do we work ...</h2>
-                <ul class="stages__list">
-                    <li class="stages__item stage">
-                        <h3 class="stage__header">All Necessary Data Collection</h3>
-                        <p class="stage__info">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus
-                            dolorem aut hic distinctio culpa similique amet voluptate, sint deserunt minima?</p>
-                        <span class="stage__logo"></span>
-                    </li>
-                    <li class="stages__item stage">
-                        <h3 class="stage__header">Analysis Data</h3>
-                        <p class="stage__info">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt
-                            aliquid cupiditate harum doloremque odio sapiente. Quibusdam aspernatur reiciendis eveniet
-                            soluta?</p>
-                        <span class="stage__logo"></span>
-                    </li>
-                    <li class="stages__item stage">
-                        <h3 class="stage__header">Report the best Solution</h3>
-                        <p class="stage__info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem
-                            veritatis perferendis voluptatum eos eius aperiam ab ex repudiandae ut minus.</p>
-                        <span class="stage__logo"></span>
-                    </li>
-                </ul>
-                <div class="stages__videoWrapper">
-                    <video src="" class="stages__video"></video>
+            <div class="stages__block">
+                <div class="stages__content">
+                    <h2 class="stages__header">How do we work ...</h2>
+                    <ul class="stages__list">
+                        <li class="stages__item stage">
+                            <h3 class="stage__header">All Necessary Data Collection</h3>
+                            <p class="stage__info">Lorem ipsum dolor sit amet, sint deserunt minima?</p>
+                            <span class="stage__logo">
+                                <svg class="stage__necessary-logo" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="23" height="23" viewBox="0 0 23 23">
+                                    <image id="task-complete" width="23" height="23" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABcAAAAXCAYAAADgKtSgAAACE0lEQVRIiaWVTUhVQRTHf0+ekM+EPsAkKvG1C2ojKlgYtCjatqjwbZQ+Ni3cpatQ0YXoQhctIl0IzaIWLVoUtWxV0EIICgRnIYha0AfE9GFqHDg3plP33vfsD8Ob++bc//znP+ecW2ho6z0LzAJ72Dl+AIPBu7mYoQj0A4f/gzjBDeAv8k863wRuA9+AbR1pKOgQ9AKHgPc2Vsi3dP4TGNiB4hNKvmUXitFclJSADWAIOJBB+BWYBlaAxrSgonkOwAVgtArFRzU2FZa8HlgAXgH7U3wv6L3cy9vdku8FPNBRhfJcWPLP6vVMTt5LXk8Bz2tR/h3oAS5VIayuVnLJlqfAhFqU5rmIuJO3uyVv1GIYqkJ5LupMwAfgOLCquZw25G6u/eNEmcqlBbQBLTmqdgGngbtadIKDyWKpXBmTtmLJdwOPgKsabEt6DdinImb1v2P6O6DEkv8VYNiSi6IvtrtlQIruNXA+eLdQKldeAF1youDdiPV8M4OoQbPnsVon2AjeyfdgpVSurCvxUvDuOuZC5cWPGeRykZOiElgEbqkN54B3QLPGnUleiG2RjTo1EywKeqqbQDdwEhgBrgBHoti+4N1yTJ6Uufj3MsdjUX0qKq6Y+H7wbj4OFrVvcghjPNFPolgRYy14d9kGi/Jx4G1GucdoAlqBZ8AD4KIu/vbZkgse1qA+gTS3dunrwTsR9yeAX1OafQdcf7zEAAAAAElFTkSuQmCC"/>
+                                </svg>
+                            </span>
+                        </li>
+                        <li class="stages__item stage">
+                            <h3 class="stage__header">Analysis Data</h3>
+                            <p class="stage__info">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt
+                                aliquid cupiditate harum doloremque odio sapiente. </p>
+                            <span class="stage__logo">
+                                <svg class="stage__analysis-logo" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="25" height="19" viewBox="0 0 25 19">
+                                    <image id="graph-analysis" width="25" height="19" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABkAAAATCAYAAABlcqYFAAACLklEQVQ4ja2Vz4uNYRTHP/fOS+YmCzJYCO9oQlNKzcbCz4YNJUpylYUs/AtKMRazk+VkNZvHwo9JSkrChIVkgdjQU6PkV2SkB7dx6eR76zT3vbc7uqfezvPe8z7ne873/Lil3jWHLwG7gR6gRHdlBrhnIH+67LhJMuAH0AuMAI+76HsQGAV+Zo6iq8CzuXpKMRT+XsmrLwRSNpAGXSv/B6SSV3cCB+0IPEwxjMm0TrpuNUmiaw9wo42/+UDNvZeB+6LlKfALyIE+wICfW6JW/HKHAe8A3iiQhrwClgMDKYYtKYbhFEM/cB54pG9OW909SM8sx+bgiQDqwDJgg2ynFHV/iuGDv5RiMJuNxZ0UwxngkwdJ0leAY2qITcAQ8Fa2L9LHVdRWYvc3VvLqADDhQb5JHwCOANN6n1Y9TH5LZ+K8UFIM34GPwCpgyoP4aX/vHJecLXNgg61AKnl1oeidAlZ7kLo7r3DnRc75YukLwMk2dFnxH6jjDnmQBdI2XReBr8BlYBJ4qXOjxc8Cr+2p5NW+WVmMqCZ7gSUWpJ8T66K7baIrkmvANs2Jraf1wGfgJrAf2Axsz1wGY+qeumpQ1hZtbOcZRxsaxH1q5WEFOppimFRGa+VvqWViUzxvjhl4uS7AmlbJCVuKqus5o9tALKWt7pKhv3M7rZVYdsa5dZGdjQHL1B77bSLFcNvuGkiRj136uNP/mga9tRTDrSZjAcg4cLRjsprFMrCB/ifAXw7CjuGklij9AAAAAElFTkSuQmCC"/>
+                                </svg>
+                            </span>
+                        </li>
+                        <li class="stages__item stage">
+                            <h3 class="stage__header">Report the best Solution</h3>
+                            <p class="stage__info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem
+                                veritatis perferendis voluptatum eos.</p>
+                            <span class="stage__logo">
+
+                                <svg class="stage__report-logo" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="21" viewBox="0 0 24 21">
+                                    <path d="M474.893,2236.57h2.369v17.35h-2.369v-17.35Zm-4.718.63-0.328.09a0.949,0.949,0,0,1-1.06-.36,0.531,0.531,0,0,1-.01-0.48,0.784,0.784,0,0,1,.493-0.39l3.7-1.06,0.451,3.04a0.544,0.544,0,0,1-.134.44,0.884,0.884,0,0,1-.6.29c-0.03,0-.063.01-0.094,0.01a0.794,0.794,0,0,1-.827-0.58l-0.057-.46c-4.274,5.46-14.119,11.32-14.546,11.57a1.043,1.043,0,0,1-.5.13,0.976,0.976,0,0,1-.638-0.23,0.577,0.577,0,0,1-.192-0.49,0.642,0.642,0,0,1,.328-0.46C456.258,2248.2,466.008,2242.39,470.175,2237.2Zm2.8,3.22v13.5h-2.369v-13.5h2.369Zm-4.143,4.01v9.49h-2.369v-9.49h2.369Zm-4.284,4.17v5.32h-2.369v-5.32h2.369Zm-4.53,2.08v3.24h-2.368v-3.24h2.368ZM478,2256H454v-1.62h24V2256h0Z" transform="translate(-454 -2235)"/>
+                                </svg>
+                                  
+                            </span>
+                        </li>
+                            <div class="stages__line line-first"></div>
+                            <div class="stages__line line-second"></div>
+                            <div class="stages__line line-third"></div>
+                    </ul>
+                </div>
+                <div class="stages__video-wrapper">
+                    <!-- <div class="test"> -->
+                    <video class="stages__video" loop muted="muted" autoplay>
+                        <source src="img/dsa.mp4" type='video/mp4'>
+                            К сожалению, ваш браузер не поддерживает формат видео
+                    </video>
+                    <!-- </div> -->
                 </div>
             </div>
         </section>
@@ -367,26 +385,26 @@
                 <a href="" class="button news__button">Learn More</a>
         </section>
         </div>
-        <section class="happyMoments">
+        <section class="happy-moments">
             <div class="container">
-                <h3 class="happyMoments__header">Our Happy Moments</h3>
-                <p class="happyMoments__subtitle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia,
+                <h3 class="happy-moments__header">Our Happy Moments</h3>
+                <p class="happy-moments__subtitle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia,
                     ipsum.</p>
-                <a href="" class="button happyMoments__button">Learn More</a>
-                <ul class="happyMoments__sort sort">
+                <a href="" class="button happy-moments__button">Learn More</a>
+                <ul class="happy-moments__sort sort">
                     <li class="sort__item"><span>All</span></li>
                     <li class="sort__item"><span>Business Plan</span></li>
                     <li class="sort__item"><span>Business Development</span></li>
                     <li class="sort__item"><span>Marketing</span></li>
                     <li class="sort__item"><span>Development</span></li>
                 </ul>
-                <div class="happyMoments__gallery">
-                    <div class="happyMoments__imageContainer"><img src="" alt=""></div>
-                    <div class="happyMoments__imageContainer"><img src="" alt=""></div>
-                    <div class="happyMoments__imageContainer"><img src="" alt=""></div>
-                    <div class="happyMoments__imageContainer"><img src="" alt=""></div>
-                    <div class="happyMoments__imageContainer"><img src="" alt=""></div>
-                    <div class="happyMoments__imageContainer"><img src="" alt=""></div>
+                <div class="happy-moments__gallery">
+                    <div class="happy-moments__image-container"><img src="" alt=""></div>
+                    <div class="happy-moments__image-container"><img src="" alt=""></div>
+                    <div class="happy-moments__image-container"><img src="" alt=""></div>
+                    <div class="happy-moments__image-container"><img src="" alt=""></div>
+                    <div class="happy-moments__image-container"><img src="" alt=""></div>
+                    <div class="happy-moments__image-container"><img src="" alt=""></div>
                 </div>
             </div>
         </section>
